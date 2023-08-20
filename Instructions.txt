@@ -1,0 +1,85 @@
+Denvik Technology - Git Trial and Project
+
+Date Updated - 20/8/2023
+Project Week 1 - Aug 21
+
+Hello all. This project is to test our git knowledge and practice what we learnt the previous week.
+
+This week, the following tasks will be tested. 
+a. Cloning a remote repository, pull 
+b. Change and existing file, merge, commit and push to the remote repository
+c. Add a file to the project. commit and push.
+
+Please follow the instructions below and complete the tasks, before wednesday 23 Aug.
+
+The project link is at https://github.com/gcgovi/collaborate.git
+
+0. It is assumed that you have installed git on your systems, before starting this task.
+1. Clone the repository to your local system, pull
+2. Enter your gitlab username in the section below, against your name
+
+a. Badhri - 
+b. Nandhihi - 
+c. Satheesh - 
+d. Sridhar - 
+e. Suriya - 
+f. Uma - 
+
+3. Merge, commit and push the changes. 
+    (Always pull once before the push, to make sure you have the latest code in the repo)
+4. Ensure that Commit comments are added and Relevant
+
+5. create a new text file on your local repo, and add it to the repository
+
+6. Enter the name of the file in the section below
+a. Badhri - 
+b. Nandhihi - 
+c. Satheesh - 
+d. Sridhar - 
+e. Suriya - 
+f. Uma - 
+
+7. Merge, commit and push the changes.
+
+8. You can check the repository on gitlab to see if the changes are there. You can also see the others changes and updates. 
+   If you don't see anyone elses updates, Congratulations, you were the first to complete this task!
+
+
+Step-by-step instructions are added below:
+
+1. Clone the Repository:
+
+In a terminal, navigate to a directory where you want to store the project.
+Run the command:
+bash
+Copy code
+git clone <repository_url>
+Replace <repository_url> with the URL of the repository - https://github.com/gcgovi/collaborate.git
+open the directory, and check if the files are present.
+
+2. Update Instructions.txt
+
+Open the file <This one!> in an editor. Make the required changes.
+Save the file
+
+In the terminal, run the following commands:
+
+git add Instructions.txt
+git commit -m "<Your comment>"
+git pull origin master
+git push origin master
+
+
+2. Make Changes and Merge:
+
+Inside the cloned repository's directory, create the new text file 
+Open the file and add some text
+Save the file.
+
+In the terminal, run the following commands:
+
+git add <new filename>
+git commit -m "<Your comment>"
+git pull origin master
+git push origin master
+If there are no conflicts, the push should be successful.
