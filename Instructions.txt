@@ -14,7 +14,7 @@ Please follow the instructions below and complete the tasks, before wednesday 23
 
 The project link is at https://github.com/gcgovi/collaborate.git
 
-0. It is assumed that you have installed git on your systems, before starting this task.
+0. It is assumed that you have installed git and the github desktop app on your systems, before starting this task.
 1. Clone the repository to your local system, pull
 2. Enter your gitlab username in the section below, against your name
 
@@ -57,6 +57,8 @@ git clone <repository_url>
 Replace <repository_url> with the URL of the repository - https://github.com/gcgovi/collaborate.git
 open the directory, and check if the files are present.
 
+Open the github app. (Assuming you are logged in) Add local repository - open the folder where you pulled the project. You will see the information about the project, including the history of the changes. 
+
 2. Update Instructions.txt
 
 Open the file <This one!> in an editor. Make the required changes.
@@ -68,7 +70,7 @@ git add Instructions.txt
 git commit -m "<Your comment>"
 git pull origin master
 --- git push origin master (If you can)
-Use the github desktop to push
+Use github desktop to push - Files with Commited changes will be displayed. There will an option to push the changes.
 
 2. Make Changes and Merge:
 
