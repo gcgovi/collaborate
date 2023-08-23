@@ -67,8 +67,8 @@ In the terminal, run the following commands:
 git add Instructions.txt
 git commit -m "<Your comment>"
 git pull origin master
-git push origin master
-
+--- git push origin master (If you can)
+Use the github desktop to push
 
 2. Make Changes and Merge:
 
@@ -81,5 +81,6 @@ In the terminal, run the following commands:
 git add <new filename>
 git commit -m "<Your comment>"
 git pull origin master
-git push origin master
+--- git push origin master (If you can)
+Use the github desktop to push
 If there are no conflicts, the push should be successful.
